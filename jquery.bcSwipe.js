@@ -4,8 +4,7 @@
  * jQuery plugin to enable swipe gestures on Bootstrap 3 carousels.
  * Examples and documentation: https://github.com/maaaaark/bcSwipe
  *
- * Licensed under the MIT license
- * http://opensource.org/licenses/mit-license
+ * Licensed under the MIT license.
  */
 (function($) {
   $.fn.bcSwipe = function(settings) {
