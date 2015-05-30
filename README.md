@@ -6,7 +6,7 @@ Lightweight (> .7kb) jQuery plugin to enable swipe gestures for Bootstrap 3 caro
 ###HTML
 ````HTML
 <!-- Bootstrap is required -->
-<script src="bootstrap/dist/js/bootstrap.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
 <script src="jquery.bcSwipe.js"></script>
 ````
 ###JS
