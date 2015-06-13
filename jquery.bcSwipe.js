@@ -8,11 +8,7 @@
  */
 (function($) {
   $.fn.bcSwipe = function(settings) {
-    var config = {
-      threshold: 50,
-      preventDefaultEvents: true
-    };
-
+    var config = { threshold: 50 };
     if (settings) {
       $.extend(config, settings);
     }
@@ -34,9 +30,6 @@
       }
 
       function onTouchMove(e) {
-        if (config.preventDefaultEvents) {
-          e.preventDefault();
-        }
         if (stillMoving) {
           var x = e.touches[0].pageX;
           var difference = start - x;
