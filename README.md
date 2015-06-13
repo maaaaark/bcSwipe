@@ -13,8 +13,10 @@ Lightweight (> .7kb) jQuery plugin to enable swipe gestures for Bootstrap 3 caro
 ````javascript
 $('.carousel').bcSwipe({
   threshold: 50,
-  preventDefaultEvents: true
+  preventDefaultEvents: false
 });
 ````
 
 Adjusting threshold will determine how long a swipe must be to move to the next carousel slide.
+
+Setting `preventDefaultEvents` to `false` will cause up and down swipes to be ignored (which leaves scrolling up and down intact).
