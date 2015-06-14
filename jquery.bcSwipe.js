@@ -1,5 +1,5 @@
 /**
- * Bootstrap Carousel Swipe v1
+ * Bootstrap Carousel Swipe v1.1
  *
  * jQuery plugin to enable swipe gestures on Bootstrap 3 carousels.
  * Examples and documentation: https://github.com/maaaaark/bcSwipe
