@@ -1,4 +1,4 @@
-# bcSwipe (Bootstrap Carousel Swipe)
+# Bootstrap Carousel Swipe (bcSwipe)
 Super lightweight (~600 bytes) jQuery plugin to enable swipe gestures for Bootstrap 3 carousels on iOS and Android.
 
 ##Usage
