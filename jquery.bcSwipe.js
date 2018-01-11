@@ -35,12 +35,16 @@
           var difference = start - x;
           if (Math.abs(difference) >= config.threshold) {
             cancelTouch();
+            var direction = 'prev';
             if (difference > 0) {
               $(this).carousel('next');
+              direction = 'next';
             }
             else {
               $(this).carousel('prev');
             }
+            var swipe = new $.Event('swipe', {direction});
+            $(this).trigger(swipe);
           }
         }
       }
