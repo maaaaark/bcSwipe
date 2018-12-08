@@ -15,3 +15,7 @@ $('.carousel').bcSwipe({ threshold: 50 });
 ````
 
 Adjusting threshold will determine how long a swipe must be to move to the next carousel slide.
+
+## Credits
+
+This project was forked from [bcSwipe](https://github.com/maaaaark/bcSwipe) and all credit must go to [Mark Shiraldi](https://github.com/maaaaark).
