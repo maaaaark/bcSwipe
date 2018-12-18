@@ -28,5 +28,8 @@
   },
   "devDependencies": {
     "uglify-js": "^3.4.9"
+  },
+  "dependencies": {
+    "detect-passive-events": "^1.0.4"
   }
 }
