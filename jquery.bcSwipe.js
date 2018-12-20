@@ -6,6 +6,8 @@
  *
  * @license MIT
  */
+'use strict';
+
 (function($) {
   $.fn.bcSwipe = function(settings) {
     var config = { threshold: 50 };
@@ -34,7 +36,7 @@
           var x = e.touches[0].pageX;
           var difference = start - x;
           if (Math.abs(difference) >= config.threshold) {
-            cancelTouch();
+            cancelTouch.call(this);
             if (difference > 0) {
               $(this).carousel('next');
             }
