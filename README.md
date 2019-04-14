@@ -2,23 +2,48 @@
 
 Super lightweight (~600 bytes) jQuery plugin to enable swipe gestures for Bootstrap 3 carousels on iOS and Android.
 
-## Usage
+## Installation
+
+Install the package using npm:
+
+```bash
+npm install bcswipe
+```
+
+This package comes with both a browser-ready, minified script, and an ES5 module.
 
 ### HTML
+
+Include the distribution script directly into the browser.
 
 ````HTML
 <!-- Bootstrap is required -->
 <script src="bootstrap/js/bootstrap.js"></script>
-<script src="jquery.bcSwipe.js"></script>
+<script src="./node_modules/bcswipe/dist/jquery.bcSwipe.min.js"></script>
 ````
 
-### JS
+### ES5
+
+Import the ES5 module using the syntax appropriate for your project:
 
 ````javascript
-$('.carousel').bcSwipe({ threshold: 50 });
+// Import plugin when 'jQuery' global is available
+import 'bcswipe';
 ````
 
+````javascript
+// Import plugin when 'jQuery' global is available
+require('bcswipe');
+````
+
+## Usage
+
 Adjusting threshold will determine how long a swipe must be to move to the next carousel slide.
+
+```javascript
+// Tweak settings
+$('.carousel').bcSwipe({ threshold: 50 });
+```
 
 ## Development
 
@@ -28,10 +53,10 @@ Install developement dependencies as usual with:
 npm install --dev
 ```
 
-The minified version of the source can be generated with:
+The browser-friendly version of the source can be generated with:
 
 ```shell
-npm run minify
+npm run build
 ```
 
 ## Credits

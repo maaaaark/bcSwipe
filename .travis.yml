@@ -1,6 +1,5 @@
 language: node_js
 
 script:
-  # Check source is minified
-  - npm run minify
-  - git diff --exit-code
+  # Build distribution
+  - npm build
