@@ -1,6 +1,10 @@
+[![Build Status](https://travis-ci.org/briggySmalls/bcSwipe.svg?branch=master)](https://travis-ci.org/briggySmalls/bcSwipe)
+[![npm](https://img.shields.io/npm/v/bcswipe.svg)](https://www.npmjs.com/package/bcswipe)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/bcswipe.svg)](https://bundlephobia.com/result?p=bcswipe)
+
 # Bootstrap Carousel Swipe (bcSwipe)
 
-Super lightweight (~600 bytes) jQuery plugin to enable swipe gestures for Bootstrap 3 carousels on iOS and Android.
+Super lightweight jQuery plugin to enable swipe gestures for Bootstrap 3 carousels on iOS and Android.
 
 ## Installation
 
