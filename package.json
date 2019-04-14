@@ -1,6 +1,6 @@
 {
   "name": "bcswipe",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Super lightweight jQuery plugin to enable swipe gestures for Bootstrap 3 carousels on iOS and Android.",
   "browser": "lib/main.js",
   "files": [
@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "mkdir -p dist; browserify dist/jquery.bcSwipe.min.js | uglifyjs --compress --mangle --comments > dist/jquery.bcSwipe.min.js",
-    "prepublishOnly": "npm build"
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
