@@ -35,6 +35,7 @@
           var difference = start - x;
           if (Math.abs(difference) >= config.threshold) {
             cancelTouch();
+            if(isCarouselEmpty($(this))) return;
             if (difference > 0) {
               $(this).carousel('next');
             }
@@ -43,6 +44,10 @@
             }
           }
         }
+      }
+      
+      function isCarouselEmpty(carousel){
+	  return carousel.find(".item.active").length < 1
       }
 
       function cancelTouch() {
