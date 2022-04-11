@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir -p dist; browserify dist/jquery.bcSwipe.min.js | uglifyjs --compress --mangle --comments > dist/jquery.bcSwipe.min.js",
+    "build": "mkdir -p dist; browserify lib/main.js | uglifyjs --compress --mangle --comments > dist/jquery.bcSwipe.min.js",
     "prepublishOnly": "npm run build"
   },
   "repository": {
