@@ -1,6 +1,6 @@
 {
   "name": "bcswipe",
-  "version": "2.0.2",
+  "version": "2.0.4",
   "description": "Super lightweight jQuery plugin to enable swipe gestures for Bootstrap 3 carousels on iOS and Android.",
   "browser": "lib/main.js",
   "files": [
